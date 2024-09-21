@@ -25,7 +25,7 @@ The data undergoes the following preprocessing steps:<br>
 ## Model Approach
 The primary unsupervised learning technique used for customer segmentation is K-Means Clustering. Other models such as DBSCAN or Hierarchical Clustering can also be explored based on the use case.<br>
 
-**K-Means Clustering**<br>
+### **K-Means Clustering**<br>
 **Feature Selection:** Features such as gender_name, city_name, transaction_status, coupon_name, merchant_name, and transaction_count are used.<br>
 **Number of Clusters:** We experiment with different numbers of clusters (K) ranging from 2 to 10.<br>
 **Evaluation:** The optimal number of clusters is selected based on evaluation metrics such as Inertia and Silhouette Score.
